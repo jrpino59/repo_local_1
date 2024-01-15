@@ -1,0 +1,133 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "deneb": {
+      "build": "1.6.2.1",
+      "metaVersion": 1,
+      "provider": "vegaLite",
+      "providerVersion": "5.16.3"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "information": {
+      "name": "Grafico de barras Verticales",
+      "description": "Ver archivo con guia de preparacion",
+      "author": "Jpino@bottonline",
+      "uuid": "b8cf154b-a672-489f-b1d4-a6da6a9729a4",
+      "generated": "2024-01-15T19:37:39.304Z",
+      "previewImageBase64PNG": "data:image/png;base64,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"
+    },
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Country",
+        "description": "",
+        "type": "text",
+        "kind": "column"
+      },
+      {
+        "key": "__1__",
+        "name": "Ventas",
+        "description": "",
+        "type": "numeric",
+        "kind": "measure"
+      }
+    ]
+  },
+  "config": {
+    "view": {"stroke": "transparent"},
+    "padding": {
+      "left": 5,
+      "top": 5,
+      "right": 10,
+      "bottom": 5
+    },
+    "font": "Segoe UI, wf_segoe-ui_normal, helvetica, arial, sans-serif",
+    "axis": {
+      "domain": false,
+      "labelColor": "black",
+      "labelFontSize": 12,
+      "ticks": false,
+      "titleFont": "din",
+      "titleColor": "white",
+      "titleFontSize": 16,
+      "titleFontWeight": "normal"
+    },
+    "axisX": {
+      "gridColor": "#C8C6C4",
+      "gridDash": [1, 5],
+      "labelFlush": false,
+      "labelPadding": 1,
+      "tickCount": 3
+    },
+    "axisY": {
+      "grid": false,
+      "labelPadding": 10
+    },
+    "bar": {
+      "color": "Green",
+      "cornerRadiusTopRight": 13,
+      "cornerRadiusBottomRight": 13
+    }
+  },
+  "description": "grafico de barras desde cero 15/01/2024",
+  "data": {"name": "dataset"},
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "encoding": {
+        "y": {
+          "field": "__0__",
+          "type": "ordinal"
+        },
+        "x": {
+          "field": "__1__",
+          "type": "quantitative",
+          "axis": null
+        },
+        "opacity": {
+          "condition": {
+            "test": {
+              "field": "__selected__",
+              "equal": "off"
+            },
+            "value": 0.4
+          },
+          "value": 1
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": {
+        "y": {
+          "field": "__0__",
+          "type": "ordinal"
+        },
+        "x": {
+          "field": "__1__",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "__1__",
+          "type": "quantitative",
+          "format": "$#0,,.0M",
+          "formatType": "pbiFormat"
+        }
+      }
+    }
+  ]
+}
